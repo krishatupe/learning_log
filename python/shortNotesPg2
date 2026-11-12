@@ -1,0 +1,36 @@
+Escape sequence characters :-
+\n :- endl
+\t :- tab space
+
+For a string titled str,
+concatenation :- sum of two strings
+
+Indexing is useful for accessing a specific character in a string str[0] is used. A string value cannot be manipulated using a str[0].
+
+len(str) is a function that accesses the length i.e. no. of characters in a string.
+
+slicing :- str[0 : len(str)] (excludes the last value)
+str[start value : end value : jumps]
+str[::2] (prints every two character)
+
+iteration :- ch is used to find characters, 
+
+a = yellow
+for ch in a :
+print(ch)
+
+Output gives :-
+y
+e
+l
+l
+o
+w
+
+string.capitalize() :- capitalizes the first character of string.
+
+string.replace(“old val” : “new value”) :- replaced old value with a newer one.
+
+string.find(“ch/word/string”) :- finds the letter/word/sentence/string
+
+string.count(“ “) :- counts the no. of times that string occurs in the string.
