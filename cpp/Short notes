@@ -4,23 +4,26 @@
 ---
 
 ## 1. BOILERPLATE CODE
-Every C++ program starts with this structure:
-```cpp
-#include<iostream>   // gives access to cout, cin
+Every C++ program starts with this structure: ```cpp
+#include<iostream> // gives access to cout, cin
 using namespace std; // so you don't have to write std::cout every time
 
 int main(){
     // your code goes here
     return 0;
 }
-```
+
 - `#include<iostream>` — preprocessor directive, loads the input/output library
+
 - `using namespace std;` — lets you use cout/cin without the std:: prefix
+
 - `int main(){}` — the entry point, every program starts here
+
 - `return 0;` — tells the computer the program ended successfully
+
 - `;` — terminator, every statement ends with one
 
----
+
 
 ## 2. PRIMITIVE (FUNDAMENTAL) DATATYPES
 
