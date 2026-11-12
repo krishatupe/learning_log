@@ -2,7 +2,7 @@
 using namespace std;
 
 int main() {
-    cout<<"C++ PROGRAM FOR FINDING THE ASCII VALE OF INPUT STRING CHARACTERS" << endl;
+    cout<<"C++ PROGRAM FOR FINDING THE ASCII VALUE OF INPUT STRING CHARACTERS" << endl;
     cout<<endl;
     
     string name;
