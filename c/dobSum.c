@@ -18,7 +18,7 @@ int main() {
         printf("Invalid Input");
     }
     else {
-        while(total>22) {
+        while(total>9) {
             total = digitSum(total);
         }
         printf("The sum is %d", total);
