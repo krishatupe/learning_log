@@ -1,8 +1,7 @@
-
 #include<stdio.h>
 int digitSum(int n){
 int sum=0; 
-printf ("Inside digitSum function, initially sum = %d\n\n",sum);
+printf ("Inside digitSum function, initially sum = %d, n = %d\n\n",sum, n);
 printf("Inside while loop, using operations :-\n sum+=n%10 & n/=10\n");
 while(n>0){
 sum += n%10;
@@ -16,7 +15,11 @@ return sum;
 int main()
 { int n;
     printf("Enter the number:- ");
-    scanf("%d", &n);
+    if(scanf("%d", &n)==1 && n>=1){
     printf("In the main function, after digitSum function call,\n Sum = %d",digitSum(n));
+    }
+    else{
+    printf("Enter a valid, positive numeric value.");
+    }
     return 0;
 }
